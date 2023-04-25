@@ -4,10 +4,19 @@
   "license": "MIT",
   "description": "Webman plugin webman-tech/laravel-queue",
   "require": {
+    "php": ">=7.4",
+    "illuminate/queue": ">=8",
+    "webman-tech/laravel-console": "^1.0"
+  },
+  "require-dev": {
+    "workerman/webman-framework": "^1.5"
   },
   "autoload": {
     "psr-4": {
       "WebmanTech\\LaravelQueue\\": "src"
     }
+  },
+  "config": {
+    "sort-packages": true
   }
 }
