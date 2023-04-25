@@ -1,0 +1,13 @@
+{
+  "name": "webman-tech/laravel-queue",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin webman-tech/laravel-queue",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "WebmanTech\\LaravelQueue\\": "src"
+    }
+  }
+}
